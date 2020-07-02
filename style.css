@@ -22,8 +22,9 @@ div{
 }
 
 /* mozilla firefox */
-@-moz-document url-prefix() {
+@media all and (min--moz-device-pixel-ratio:0) and (max-width: 680px){
     div{
         background-color: red;
-    }  
-  }  
+    }    
+}
+ 
