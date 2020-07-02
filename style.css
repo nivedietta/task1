@@ -1,0 +1,23 @@
+body{
+    background-color: #f1c5c5 !important;
+}
+div{
+    background-color: red;
+    margin-top: 10%;
+}
+
+/* safari browser */
+@media not all and (min-resolution:.001dpcm) { 
+    @media {
+        div{
+            background-color: green;
+        } 
+    }
+}
+
+/* chrome  */
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+        div{
+            background-color: pink;
+        }    
+}
